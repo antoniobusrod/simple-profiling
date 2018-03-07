@@ -1,0 +1,20 @@
+{
+  "name": "simple-profiling",
+  "version": "1.0.0",
+  "description": "Small example of Node.js profiling from official guides",
+  "main": "lib/index.js",
+  "scripts": {
+    "start": "node lib/index",
+    "prof": "node --prof lib/index",
+    "test-prof": "curl -X GET \"http://localhost:4000/newUser?username=matt&password=password\" && autocannon -a 250 \"http://localhost:4000/auth?username=matt&password=password\""
+  },
+  "keywords": [],
+  "author": "Antonio Bustos <antoniobusrod@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "express": "4.16.2"
+  },
+  "devDependencies": {
+    "autocannon": "2.0.1"
+  }
+}
