@@ -12,7 +12,7 @@
   "author": "Antonio Bustos <antoniobusrod@gmail.com>",
   "license": "ISC",
   "dependencies": {
-    "express": "4.16.2"
+    "express": "4.16.3"
   },
   "devDependencies": {
     "autocannon": "2.0.1"
